@@ -1,0 +1,52 @@
+# Dependency directories
+node_modules
+dist
+
+# TypeScript build output
+*.js
+*.js.map
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+# TypeScript cache
+.tscache
+
+# Editor directories and files
+.vscode
+.idea
+
+# macOS directory attributes
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# npm debug log
+npm-debug.log*
+
+# yarn lockfile
+yarn.lock
+
+# OS generated files
+/api.DS_Store
+/api.AppleDouble
+/api.LSOverride
+
+# Node.js environment files
+/api.node_repl_history
+
+# System Files
+/api._*
+
+# Testing
+coverage
+.nyc_output

@@ -1,0 +1,10 @@
+version: '3'
+services:
+
+  BCT-APP:
+      build:
+        context: .
+        dockerfile: ./DockerfileApi
+      restart: always
+      ports:
+        - "8002:8000" 

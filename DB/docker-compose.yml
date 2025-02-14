@@ -1,0 +1,12 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:7
+    container_name: BTC-MONGODB
+    ports:
+      - "27018:27017"
+    volumes:
+      - ./mongoDB_data:/data/db  # Cambiado para usar la definición de volumen como referencia
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
