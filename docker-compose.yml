@@ -8,3 +8,10 @@ services:
       restart: always
       ports:
         - "8002:8000" 
+      environment:
+      - SERVICE_PORT=8000
+      - DB_NAME=BCT_TEST
+      - DB_USER=root
+      - DB_PASSWORD=bananapi
+      - DB_HOST=database
+      - DB_PORT=27017
