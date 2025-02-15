@@ -13,5 +13,5 @@ services:
       - DB_NAME=BCT_TEST
       - DB_USER=root
       - DB_PASSWORD=bananapi
-      - DB_HOST=database
+      - DB_HOST=10.0.0.33
       - DB_PORT=27017
