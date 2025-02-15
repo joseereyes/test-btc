@@ -1,7 +1,7 @@
 version: '3'
 services:
 
-  BCT-APP:
+  btc-app:
       build:
         context: .
         dockerfile: ./DockerfileApi
